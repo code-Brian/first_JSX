@@ -1,5 +1,10 @@
 .App {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  padding: 5rem;
 }
 
 .App-logo {
@@ -35,4 +40,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-background {
+  background-color: #282C34;
+}
+
+.App-list {
+  color:aquamarine;
+  list-style: none;
 }
